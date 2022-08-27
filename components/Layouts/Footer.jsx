@@ -109,10 +109,10 @@ function Footer() {
 
   return (
     <footer className='bg-dark-color pt-[316px] pb-10'>
-      <div className='max-w-7xl mx-auto mb-24'>
-        {footerLink && <ul className='flex items-start justify-between flex-wrap'>
+      <div className='max-w-7xl mx-auto mb-24 pl-10'>
+        {footerLink && <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
           {footerLink.map((footerItem, i) => (
-            <li className='flex flex-col' key={i} >
+            <li className='flex flex-col text-center md:text-left' key={i} >
               <h2 className='font-semibold text-2xl mb-3.5 text-white uppercase'>
                 {footerItem.title}
               </h2>
@@ -142,24 +142,24 @@ function Footer() {
       </div>
 
       <div className='max-w-5xl mx-auto'>
-        <div className='flex gap-60 mb-24'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-60 mb-24 '>
           <Link href={"/"}>
-            <a className='text-text-pink font-semibold text-base uppercase'>
+            <a className='text-text-pink text-center lg:text-left font-semibold text-base uppercase'>
             terminos y condiciones
             </a>
           </Link>
           <Link href={"/"}>
-            <a className='text-text-pink font-semibold text-base uppercase'>
+            <a className='text-text-pink text-center lg:text-left font-semibold text-base uppercase'>
             politica de privacidad
             </a>
           </Link>
           <Link href={"/"}>
-            <a className='text-text-pink font-semibold text-base uppercase'>
+            <a className='text-text-pink text-center lg:text-left font-semibold text-base uppercase'>
             politica envios
             </a>
           </Link>
           <Link href={"/"}>
-            <a className='text-text-pink font-semibold text-base uppercase'>
+            <a className='text-text-pink text-center lg:text-left font-semibold text-base uppercase'>
             politica de reembolsos
             </a>
           </Link>

@@ -5,7 +5,7 @@ import { BsTruck } from "react-icons/bs"
 function ProductItem({data}) {
   return (
     <div className="bg-gray-bg rounded-20 overflow-hidden">
-        <Image src={data.src} />
+        <Image className='w-full' src={data.src} alt="salks" />
 
         <div className='p-5 pt-4'>
             <h3 className='font-bold text-lg leading-6'>
@@ -24,7 +24,7 @@ function ProductItem({data}) {
             </span>
 
             <div className='flex items-center justify-between'>
-                <button className='py-3 px-[53px] bg-site-pink font-medium text-sm rounded-10 text-white '>
+                <button className='py-3 w-52 bg-site-pink font-medium text-sm rounded-10 text-white '>
                     Agregar al carrito
                 </button>
                 <button className='rounded-10 bg-white p-3'>

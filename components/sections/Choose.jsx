@@ -82,6 +82,22 @@ function Choose() {
                       }}
                       slidesPerView={4}
                       spaceBetween={100}
+                      breakpoints={{
+                        0: {
+                          slidesPerView: 1
+                        },
+                        568: {
+                          slidesPerView: 2,
+                          spaceBetween: 30
+                        },
+                        768: {
+                          slidesPerView: 3,
+                          spaceBetween: 60
+                        },
+                        1100: {
+                          slidesPerView: 4
+                        }
+                      }}
                       autoplay={{
                           delay: 2500,
                           disableOnInteraction: false,
@@ -93,7 +109,7 @@ function Choose() {
                           <SwiperSlide key={i}>
                              <div className='flex flex-col items-center'>
                                 <div className='w-40 h-40 mb-30 flex items-center justify-center rounded-full border'>
-                                  <Image src={d.icon} />
+                                  <Image src={d.icon}  />
                                 </div>
                                 <h2 className='text-center font-bold text-lg'>
                                   {d.title}

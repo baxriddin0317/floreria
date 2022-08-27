@@ -16,8 +16,8 @@ import data from "../../utils/Data"
 
 function Product() {
  return (
-    <section className='max-w-8xl mx-auto px-1 pb-[71px]'>
-        <h1  className='font-Cormorant-Upright text-center font-bold text-title-xl mb-10'>
+    <section className='max-w-8xl mx-auto px-1 pb-[71px] pt-20'>
+        <h1  className='font-Cormorant-Upright text-center font-bold text-4xl md:text-title-xl mb-10'>
             Nuestros productos
         </h1>
         <p className='font-normaly text-xl text-gray-text text-center mb-16'>
@@ -25,7 +25,7 @@ function Product() {
         </p>
 
         <div className='relative'>
-            <button className="prev absolute top-1/2 -translate-y-1/2">
+            <button className="prev absolute z-50 top-1/2 -translate-y-1/2">
                 <IoIosArrowBack className="text-text-pink text-5xl" />
             </button>
             {data && (
@@ -36,10 +36,33 @@ function Product() {
                     }}
                     slidesPerView={3}
                     spaceBetween={44}
+                    breakpoints={{
+                        0: {
+                            slidesPerView: 1,
+
+                        },
+                        578: {
+                            slidesPerView: 2,
+                        },
+                        690: {
+                            slidesPerView: 2,
+                            spaceBetween: 10
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 20
+                        },
+                        1024: {
+                            slidesPerView: 3,
+                            spaceBetween: 44
+                        }
+
+                    }}
                     // autoplay={{
                     //     delay: 2500,
                     //     disableOnInteraction: false,
                     // }}
+                    loop={true}
                     modules={[/*Autoplay,*/ Navigation]} 
                     className="max-w-[1078px] mx-auto"
                 >
@@ -50,7 +73,7 @@ function Product() {
                     ))}
                 </Swiper>
             )}
-            <button className="next absolute top-1/2 -translate-y-1/2 right-0">
+            <button className="next absolute z-50 top-1/2 -translate-y-1/2 right-0">
                 <IoIosArrowForward className="text-text-pink text-5xl " />
             </button>
         </div>

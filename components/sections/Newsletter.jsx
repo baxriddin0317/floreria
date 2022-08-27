@@ -11,7 +11,7 @@ function Newsletter() {
 
   return (
     <section className='max-w-7.5xl mx-auto bg-site-pink rounded-40 p-60 translate-y-1/2'>
-        <h1  className='font-Cormorant-Upright text-center font-bold text-title-xl text-white mb-60'>
+        <h1  className='font-Cormorant-Upright text-center font-bold text-4xl md:text-title-xl text-white mb-60'>
             Suscríbete a nuestro newsletter
         </h1>
         <form 
@@ -27,17 +27,17 @@ function Newsletter() {
         <div className='flex gap-12 justify-center'>
             <Link href={"/"}>
             <a >
-            <FaTiktok className='text-white text-5xl' />
+                <FaTiktok className='text-white text-4xl md:text-5xl' />
             </a>
             </Link>
             <Link href={"/"}>
                 <a>
-                <AiOutlineInstagram className='text-white text-5xl' />
+                <AiOutlineInstagram className='text-white text-4xl md:text-5xl' />
                 </a>
             </Link>
             <Link href={"/"}>
                 <a>
-                <FaFacebookF className='text-white text-5xl' />
+                <FaFacebookF className='text-white text-4xl md:text-5xl' />
                 </a>
             </Link>
         </div>
