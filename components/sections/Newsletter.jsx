@@ -15,11 +15,11 @@ function Newsletter() {
             Suscríbete a nuestro newsletter
         </h1>
         <form 
-            className='bg-white rounded-20 flex items-center justify-between gap-8 mb-60 max-w-[460px] mx-auto p-2.5'
+            className='md:bg-white rounded-20 flex flex-col md:flex-row items-center justify-between gap-8 mb-60 max-w-[460px] mx-auto p-2.5'
             onClick={handleSubmit}
         >
-            <input className='font-normal text-base text-gray-text w-full outline-none pl-3' type="text" placeholder='Email' />
-            <button className='bg-site-pink hover:bg-white text-white hover:text-text-pink rounded-10 h-10 w-36 font-medium text-base'>
+            <input className='font-normal text-base text-gray-text w-full py-4 md:py-0 rounded-20 outline-none pl-3' type="text" placeholder='Email' />
+            <button className='bg-white md:bg-site-pink hover:bg-white text-text-pink md:text-white md:hover:text-text-pink rounded-10 h-10 w-36 font-medium text-base'>
             Suscribirme
             </button>
         </form>
