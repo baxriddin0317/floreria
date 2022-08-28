@@ -109,7 +109,7 @@ function Footer() {
 
   return (
     <footer className='bg-dark-color pt-[316px] pb-10'>
-      <div className='max-w-7xl mx-auto mb-24 pl-10'>
+      <div className='max-w-7xl mx-auto mb-24 md:pl-10'>
         {footerLink && <ul className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8'>
           {footerLink.map((footerItem, i) => (
             <li className='flex flex-col text-center md:text-left' key={i} >
