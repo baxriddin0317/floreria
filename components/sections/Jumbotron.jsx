@@ -5,6 +5,9 @@ import { AiOutlineArrowRight } from "react-icons/ai"
 import { MdKeyboardArrowDown} from "react-icons/md"
 
 function Jumbotron() {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
   return (
     <section className='max-w-8xl mx-auto px-1 pt-20 md:py-32'>
         <div className='flex flex-col xl:flex-row items-center justify-between'>
@@ -40,7 +43,10 @@ function Jumbotron() {
             BUSCA TU REGALO
             </h2>
 
-            <form className='flex flex-col xl:flex-row items-end justify-between w-full gap-5'>
+            <form 
+                className='flex flex-col xl:flex-row items-end justify-between w-full gap-5'
+                onClick={handleSubmit}
+            >
                 <div className='flex flex-col xl:w-64 md:w-1/2 w-4/5 mx-auto'>
                     <label htmlFor="Donde" className='font-bold text-sm text-label mb-2.5'>¿Donde envías?</label>
                     <input className='xl:w-[260px] w-full text-gray-text text-base outline-none h-10 pl-5 rounded-10' type="text" id='Donde' placeholder='Comuna' />
@@ -61,7 +67,7 @@ function Jumbotron() {
                 </div>
                 <div className='flex flex-col xl:w-64 md:w-1/2 w-4/5 mx-auto'>
                     <label htmlFor="Cuando" className='font-bold text-sm text-label mb-2.5'>¿Cuando debe llegar?</label>
-                    <input className='xl:w-[260px] outline-none h-10 pl-5 rounded-10' type="date" id='Cuando' placeholder='Lunes, 21 feb' />
+                    <input className='xl:w-[260px] text-gray-text outline-none h-10 pl-5 rounded-10' type="date" id='Cuando' />
                 </div>
                 
                 <button className='ml-auto xl:w-[260px] md:w-1/2 w-4/5 mx-auto h-10 text-center bg-site-pink rounded-10 font-medium text-base'>

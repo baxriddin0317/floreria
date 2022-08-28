@@ -50,7 +50,7 @@ function Product() {
                         },
                         768: {
                             slidesPerView: 3,
-                            spaceBetween: 20
+                            spaceBetween: 10
                         },
                         1024: {
                             slidesPerView: 3,

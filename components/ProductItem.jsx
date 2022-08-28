@@ -23,7 +23,7 @@ function ProductItem({data}) {
                 ${data.sum}
             </span>
 
-            <div className='flex items-center justify-between'>
+            <div className='flex items-center justify-between gap-2'>
                 <button className='py-3 w-52 bg-site-pink font-medium text-sm rounded-10 text-white '>
                     Agregar al carrito
                 </button>
