@@ -39,7 +39,7 @@ function Product() {
                     breakpoints={{
                         0: {
                             slidesPerView: 1,
-
+                            spaceBetween: 10
                         },
                         578: {
                             slidesPerView: 2,
@@ -64,7 +64,7 @@ function Product() {
                     // }}
                     loop={true}
                     modules={[/*Autoplay,*/ Navigation]} 
-                    className="max-w-[1078px] mx-auto"
+                    className="max-w-[330px] sm:max-w-[670px] md:max-w-[1078px] mx-auto"
                 >
                     {data.map(d => (
                         <SwiperSlide key={d.id}>
