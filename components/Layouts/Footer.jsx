@@ -142,7 +142,7 @@ function Footer() {
       </div>
 
       <div className='max-w-5xl mx-auto'>
-        <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-60 mb-24 '>
+        <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-60 mb-24 '>
           <Link href={"/"}>
             <a className='text-text-pink text-center lg:text-left font-semibold text-base uppercase'>
             terminos y condiciones

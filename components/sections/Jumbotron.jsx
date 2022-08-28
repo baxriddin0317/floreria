@@ -9,7 +9,7 @@ function Jumbotron() {
         e.preventDefault();
     }
   return (
-    <section className='max-w-8xl mx-auto px-1 pt-20 md:py-32'>
+    <section className='max-w-8xl mx-auto px-4 md:px-1 pt-20 md:py-32'>
         <div className='flex flex-col xl:flex-row items-center justify-between'>
             <div className='xl:w-[460px] mb-10 sm:mb-0'>
                 <h1 className='font-Cormorant-Upright font-bold text-title-xl mb-5'>
@@ -25,7 +25,7 @@ function Jumbotron() {
                     Además podemos entregar hoy mismo si deseas
                 </p>
 
-                <button className='flex items-center gap-3 mt-30 bg-site-pink text-white rounded-30 py-5 px-12'>
+                <button className='flex items-center gap-3 mt-30 bg-site-pink text-white rounded-30 py-3 px-30 md:py-5 md:px-12'>
                     <span className='text-base'>
                     Entrega Inmediata
                     </span>

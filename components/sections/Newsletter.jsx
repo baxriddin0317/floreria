@@ -10,7 +10,7 @@ function Newsletter() {
     }
 
   return (
-    <section className='max-w-7.5xl mx-auto bg-site-pink rounded-40 p-60 translate-y-1/2'>
+    <section className='max-w-7.5xl mx-4 xl:mx-auto bg-site-pink rounded-40 p-60 translate-y-1/2'>
         <h1  className='font-Cormorant-Upright text-center font-bold text-4xl md:text-title-xl text-white mb-60'>
             Suscríbete a nuestro newsletter
         </h1>

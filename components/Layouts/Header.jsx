@@ -46,7 +46,7 @@ function Header() {
 
   return (
     <header className=''>
-        <div className="flex items-center justify-between gap-4 xl:gap-0 max-w-8xl mx-auto px-1 py-30">
+        <div className="flex items-center justify-between gap-4 xl:gap-0 max-w-8xl mx-auto px-4 md:px-1 py-30">
             {/* logo */}
             <Link href={"/"}>
                 <Image className="cursor-pointer" src={require("../../public/Assets/Icons/logo.png")} width={51} height={57}  />

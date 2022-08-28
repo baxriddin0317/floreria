@@ -61,7 +61,7 @@ function Choose() {
 
   return (
     <section className="bg-gray-bg">
-        <div className="max-w-8xl mx-auto px-1 pt-16 pb-72">
+        <div className="max-w-8xl mx-auto px-4 md:px-1 pt-16 pb-72">
           <h1  className='font-Cormorant-Upright text-center font-bold text-title-xl mb-10'>
             ¿Por qué elegirnos?
           </h1>

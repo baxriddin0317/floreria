@@ -20,7 +20,7 @@ function Nosotras() {
 
 
   return (
-    <section className='max-w-[1200px] mx-auto px-1 pt-24'>
+    <section className='max-w-[1200px] mx-auto px-4 md:px-1 pt-24'>
         <h1  className='font-Cormorant-Upright text-center font-bold text-title-xl mb-10'>
             Nosotras
         </h1>
