@@ -25,7 +25,7 @@ function Jumbotron() {
                     Además podemos entregar hoy mismo si deseas
                 </p>
 
-                <button className='flex items-center gap-3 mt-30 bg-site-pink text-white rounded-30 py-3 px-30 md:py-5 md:px-12'>
+                <button className='flex items-center gap-3 mt-30 btn-hover text-white  rounded-30 py-3 px-30 md:py-5 md:px-12'>
                     <span className='text-base'>
                     Entrega Inmediata
                     </span>
@@ -70,7 +70,7 @@ function Jumbotron() {
                     <input className='w-full text-gray-text outline-none h-10 pl-5 rounded-10' type="date" id='Cuando' />
                 </div>
                 
-                <button className='ml-auto xl:w-[260px] md:w-1/2 w-4/5 mx-auto h-10 text-center bg-site-pink rounded-10 font-medium text-base'>
+                <button className='ml-auto xl:w-[260px] md:w-1/2 w-4/5 mx-auto h-10 text-center btn-hover rounded-10 font-medium text-base'>
                     encontrar regalo
                 </button>
             </form>

@@ -44,7 +44,7 @@ function Nosotras() {
             breakpoints={{
                 0: {
                     slidesPerView: 3,
-                    spaceBetween: 35
+                    spaceBetween: 30
                 },
                 568: {
                     slidesPerView: 3,
@@ -69,7 +69,7 @@ function Nosotras() {
             }}
             loop={true}
             modules={[EffectCoverflow, Autoplay]}
-            className=" lg:w-[880px] h-[230px]"
+            className=" lg:w-[880px] h-44 sm:h-[230px]"
         >
             <SwiperSlide className='relative rounded-70 overflow-hidden'>
                 <Image layout='fill' objectFit='cover' src={Flower1} />

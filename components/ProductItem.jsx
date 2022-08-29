@@ -11,24 +11,24 @@ function ProductItem({data}) {
             <h3 className='font-bold text-lg leading-6'>
                 {data.title}
             </h3>
-            <p className='font-normaly text-sm text-gray-sm mb-2.5'>
+            <p className='font-Poppins font-normaly text-sm text-gray-sm mb-2.5'>
                 {data.text}
             </p>
 
-            <p className='text-text-pink font-normal text-sm mb-2.5'>
+            <p className='font-Poppins text-text-pink font-normal text-sm mb-2.5'>
                 {data.war}
             </p>
 
-            <span className='block font-semibold text-lg-text mb-5'>
+            <span className='block font-Poppins font-semibold text-lg-text mb-5'>
                 ${data.sum}
             </span>
 
             <div className='flex items-center justify-between gap-2'>
-                <button className='py-3 w-52 bg-site-pink font-medium text-sm rounded-10 text-white '>
+                <button className='py-3 w-52 btn-hover font-medium text-sm rounded-10 text-white '>
                     Agregar al carrito
                 </button>
-                <button className='rounded-10 bg-white p-3'>
-                    <BsTruck className='text-text-pink text-xl' />
+                <button className='rounded-10 bg-white p-3 text-text-pink hover:bg-site-pink hover:text-white'>
+                    <BsTruck className=' text-xl' />
                 </button>
             </div>
         </div>

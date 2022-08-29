@@ -15,4 +15,8 @@
     @apply font-nunito
   }
 
+  .btn-hover{
+    @apply bg-site-pink hover:bg-white hover:text-text-pink border border-transparent hover:border hover:border-site-pink
+  }
+
 }

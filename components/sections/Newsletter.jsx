@@ -19,8 +19,8 @@ function Newsletter() {
             onClick={handleSubmit}
         >
             <input className='font-normal text-base text-gray-text w-full py-4 md:py-0 rounded-20 outline-none pl-3' type="text" placeholder='Email' />
-            <button className='bg-white md:bg-site-pink hover:bg-white text-text-pink md:text-white md:hover:text-text-pink rounded-10 h-10 w-36 font-medium text-base'>
-            Suscribirme
+            <button className='bg-white md:bg-site-pink hover:bg-white text-text-pink md:text-white md:hover:text-text-pink border border-transparent hover:border hover:border-site-pink rounded-10 h-10 w-36 font-medium text-base'>
+                Suscribirme
             </button>
         </form>
 
