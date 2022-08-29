@@ -71,17 +71,17 @@ function Nosotras() {
             modules={[EffectCoverflow, Autoplay]}
             className="lg:w-[880px] h-[230px]"
         >
-            <SwiperSlide className='rounded-70 overflow-hidden'>
-                <Image src={Flower1} />
+            <SwiperSlide className='relative rounded-70 overflow-hidden'>
+                <Image layout='fill' objectFit='cover' src={Flower1} />
             </SwiperSlide>
-            <SwiperSlide className='rounded-70 overflow-hidden'>
-                <Image src={Flower2} />
+            <SwiperSlide className='relative rounded-70 overflow-hidden'>
+                <Image layout='fill' objectFit='cover' src={Flower2} />
             </SwiperSlide>
-            <SwiperSlide className='rounded-70 overflow-hidden'>
-                <Image src={Flower3} />
+            <SwiperSlide className='relative rounded-70 overflow-hidden'>
+                <Image layout='fill' objectFit='cover' src={Flower3} />
             </SwiperSlide>
-            <SwiperSlide className='rounded-70 overflow-hidden'>
-                <Image src={SliderF} />
+            <SwiperSlide className='relative rounded-70 overflow-hidden'>
+                <Image layout='fill' objectFit='cover' src={SliderF} />
             </SwiperSlide>
         </Swiper>
         </div>

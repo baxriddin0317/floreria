@@ -128,8 +128,8 @@ function Header() {
 
 function MobileNav ({open, setOpen}) {
     return (
-        <div className={`bg-white fixed z-100 left-0 w-full h-full duration-700 ${open ? "top-0" : "-top-full"}`}>
-            <div className='flex items-center justify-between px-1 py-30'>
+        <div className={`bg-white fixed z-100 left-0 w-full h-full top-0 duration-700 ${open ? "left-0" : "-left-full"}`}>
+            <div className='flex items-center justify-between px-4 md:px-1 py-30'>
                 {/* logo */}
                 <Link href={"/"}>
                     <Image className="cursor-pointer" src={require("../../public/Assets/Icons/logo.png")} width={51} height={57}  />
