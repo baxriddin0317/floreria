@@ -69,7 +69,7 @@ function Nosotras() {
             }}
             loop={true}
             modules={[EffectCoverflow, Autoplay]}
-            className="lg:w-[880px] h-[230px]"
+            className=" lg:w-[880px] h-[230px]"
         >
             <SwiperSlide className='relative rounded-70 overflow-hidden'>
                 <Image layout='fill' objectFit='cover' src={Flower1} />

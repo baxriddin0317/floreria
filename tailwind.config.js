@@ -44,6 +44,9 @@ module.exports = {
       fontSize: {
         "title-xl": ["50px", "61px"],
         "lg-text": ["22px", "33px"]
+      },
+      zIndex: {
+        "100": "100"
       }
     },
   },
