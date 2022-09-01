@@ -10,6 +10,8 @@ export default function Home() {
   return (
     <AppLayout>
       <Hero />
+
+      <div className="h-screen"></div>
       {/* <Jumbotron /> */}
       {/* <Product />
       <Choose />

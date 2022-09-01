@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
+import HeroSearchFilter from "./HeroSearchFilter";
 
 const Hero = () => {
   return (
     <>
-      <div className="relative md:bg-[url(/assets/img/hero.png)] md:bg-[length:45rem] xl:bg-contain bg-no-repeat bg-right py-16 lg:pb-40">
+      <div className="relative md:bg-[url(/assets/img/hero.png)] md:bg-[length:45rem] xl:bg-contain bg-no-repeat bg-right py-16 lg:pb-48">
         <div className="relative max-w-base mx-auto z-10 px-6">
           <div className="max-w-sm lg:max-w-lg md:pr-10">
             <h1 className="font-cormorant-upright font-bold text-5xl lg:text-7xl">
@@ -38,6 +39,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
+      <HeroSearchFilter />
     </>
   );
 };
