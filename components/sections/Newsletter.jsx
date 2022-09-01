@@ -1,48 +1,54 @@
-import React from 'react'
-import Link from "next/link"
-import { FaTiktok, FaFacebookF } from "react-icons/fa"
-import { AiOutlineInstagram } from "react-icons/ai"
+import React from "react";
+import Link from "next/link";
+import { FaTiktok, FaFacebookF } from "react-icons/fa";
+import { AiOutlineInstagram } from "react-icons/ai";
 
 function Newsletter() {
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-    }
-
   return (
-    <section className='max-w-7.5xl mx-4 xl:mx-auto bg-site-pink rounded-40 p-60 translate-y-1/2'>
-        <h1  className='font-Cormorant-Upright text-center font-bold text-4xl md:text-title-xl text-white mb-60'>
+    <div className="relative bg-brand-dark-primary before:absolute before:top-0 before:left-0 before:h-2/5 before:w-full before:bg-white">
+      <div className="relative max-w-base mx-auto z-10 px-3 md:px-6">
+        <div className="bg-brand-primary rounded-40 space-y-10 md:space-y-15 py-15">
+          <h2 className="font-cormorant-upright text-center text-white font-bold text-4xl lg:text-5xl xl:text-6xl">
             Suscríbete a nuestro newsletter
-        </h1>
-        <form 
-            className='md:bg-white rounded-20 flex flex-col md:flex-row items-center justify-between gap-8 mb-60 max-w-[460px] mx-auto p-2.5'
-            onClick={handleSubmit}
-        >
-            <input className='font-normal text-base text-gray-text w-full py-4 md:py-0 rounded-20 outline-none pl-3' type="text" placeholder='Email' />
-            <button className='bg-white md:bg-site-pink hover:bg-white text-text-pink md:text-white md:hover:text-text-pink border border-transparent hover:border hover:border-site-pink rounded-10 h-10 w-36 font-medium text-base'>
-                Suscribirme
-            </button>
-        </form>
+          </h2>
 
-        <div className='flex gap-12 justify-center'>
-            <Link href={"/"}>
-            <a >
-                <FaTiktok className='text-white text-4xl md:text-5xl' />
-            </a>
+          <form className="max-w-[460px] mx-auto px-4">
+            <div className="relative">
+              <input
+                type="text"
+                placeholder="Email"
+                className="bg-white w-full h-13 md:h-15 placeholder-brand-gray-primary rounded-2xl lg:rounded-20 px-5"
+              />
+              <button
+                type="button"
+                className="bg-brand-primary text-white absolute top-1/2 -translate-y-1/2 right-1 md:right-2.5 rounded-base py-2.5 px-4 md:px-7"
+              >
+                <span className="text-sm md:text-base">Suscribirme</span>
+              </button>
+            </div>
+          </form>
+
+          <div className="flex items-center justify-center space-x-11">
+            <Link href="/">
+              <a className="w-12 h-12 shrink-0 grid place-content-center lg:hover:bg-white/20 text-white rounded-2xl">
+                <FaTiktok className="text-xl md:text-2xl" />
+              </a>
             </Link>
-            <Link href={"/"}>
-                <a>
-                <AiOutlineInstagram className='text-white text-4xl md:text-5xl' />
-                </a>
+            <Link href="/">
+              <a className="w-12 h-12 shrink-0 grid place-content-center lg:hover:bg-white/20 text-white rounded-2xl">
+                <AiOutlineInstagram className="text-2xl md:text-3xl" />
+              </a>
             </Link>
-            <Link href={"/"}>
-                <a>
-                <FaFacebookF className='text-white text-4xl md:text-5xl' />
-                </a>
+            <Link href="/">
+              <a className="w-12 h-12 shrink-0 grid place-content-center lg:hover:bg-white/20 text-white rounded-2xl">
+                <FaFacebookF className="text-xl md:text-2xl" />
+              </a>
             </Link>
+          </div>
         </div>
-    </section>
-  )
+      </div>
+    </div>
+  );
 }
 
-export default Newsletter
+export default Newsletter;
