@@ -14,10 +14,6 @@ export default function Home() {
       <HomeProductsSlider />
       <WhyChooseUs />
       <div className="h-screen"></div>
-      {/* 
-      <Choose />
-      <Nosotras />
-      <Newsletter /> */}
     </AppLayout>
   );
 }
