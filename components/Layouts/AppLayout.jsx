@@ -1,18 +1,16 @@
-import Footer from './Footer'
-import Header from './Header'
+import AppNavigation from "./AppNavigation";
+import Footer from "./Footer";
 
-function AppLayout({children}) {
+function AppLayout({ children }) {
   return (
     <>
-        <Header />
+      <AppNavigation />
 
-        <main>
-            {children}
-        </main>
+      <main>{children}</main>
 
-        <Footer />
+      {/* <Footer /> */}
     </>
-  )
+  );
 }
 
-export default AppLayout
+export default AppLayout;

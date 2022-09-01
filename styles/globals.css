@@ -14,7 +14,21 @@
     @apply font-nunito;
   }
 
+  input {
+    @apply focus:outline-none;
+  }
+
   .btn-hover {
     @apply bg-site-pink hover:bg-white hover:text-text-pink border border-transparent hover:border hover:border-site-pink;
   }
+}
+
+.nav-links::before,
+.nav-links::after {
+  content: "";
+  @apply absolute left-0 w-full h-px bg-linear;
+}
+
+.nav-links {
+  @apply before:top-0 after:bottom-0;
 }

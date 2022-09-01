@@ -7,12 +7,12 @@ import Product from "../components/sections/Product";
 
 export default function Home() {
   return (
-    <AppLayout >
-      <Jumbotron />
-      <Product />
+    <AppLayout>
+      {/* <Jumbotron /> */}
+      {/* <Product />
       <Choose />
       <Nosotras />
-      <Newsletter />
+      <Newsletter /> */}
     </AppLayout>
-  )
+  );
 }
