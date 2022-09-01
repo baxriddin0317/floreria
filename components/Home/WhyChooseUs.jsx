@@ -41,7 +41,7 @@ const WhyChooseUs = () => {
   return (
     <div className="bg-brand-gray-light py-12 lg:py-15">
       <div className="text-center px-6">
-        <h2 className="font-cormorant-upright font-bold text-5xl lg:text-7xl">
+        <h2 className="font-cormorant-upright text-brand-dark-primary font-bold text-5xl lg:text-6xl">
           ¿Por qué elegirnos?
         </h2>
         <p className="lg:text-xl text-brand-gray-primary mt-5">

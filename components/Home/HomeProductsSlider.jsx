@@ -16,7 +16,7 @@ const HomeProductsSlider = () => {
   return (
     <div className="pt-28 pb-15">
       <div className="text-center px-6">
-        <h2 className="font-cormorant-upright font-bold text-5xl lg:text-7xl">
+        <h2 className="font-cormorant-upright font-bold text-brand-dark-primary text-5xl lg:text-6xl">
           Nuestros productos
         </h2>
         <p className="lg:text-xl text-brand-gray-primary mt-5">
