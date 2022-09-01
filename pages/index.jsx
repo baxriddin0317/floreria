@@ -1,3 +1,4 @@
+import Hero from "../components/Home/Hero";
 import AppLayout from "../components/Layouts/AppLayout";
 import Choose from "../components/sections/Choose";
 import Jumbotron from "../components/sections/Jumbotron";
@@ -8,6 +9,7 @@ import Product from "../components/sections/Product";
 export default function Home() {
   return (
     <AppLayout>
+      <Hero />
       {/* <Jumbotron /> */}
       {/* <Product />
       <Choose />

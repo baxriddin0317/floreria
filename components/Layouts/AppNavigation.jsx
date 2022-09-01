@@ -39,7 +39,7 @@ function Header() {
 
   return (
     <>
-      <header>
+      <header className="w-full bg-white z-40">
         <div className="hidden bg-black text-white">
           <p className="max-w-base mx-auto text-sm tracking-wide px-6 py-2.5">
             <strong>
@@ -47,7 +47,7 @@ function Header() {
             </strong>
           </p>
         </div>
-        <nav className="max-w-base mx-auto font-nunito flex items-center py-2 px-3 md:px-6 xl:py-3.5 xxl:py-5">
+        <nav className="max-w-base mx-auto flex items-center py-2 px-3 md:px-6 xl:py-3.5 xxl:py-5">
           <Link href="/">
             <a className="relative w-16 h-14 md:w-16 md:h-16 shrink-0">
               <Image src="/logo.png" layout="fill" />
@@ -149,7 +149,7 @@ function Header() {
           </div>
         </nav>
 
-        <div className="nav-links relative hidden lg:flex items-center justify-center font-nunito text-sm xxl:text-base space-x-12 xxl:space-x-20 py-4 xxl:py-6">
+        <div className="nav-links relative hidden lg:flex items-center justify-center text-sm xxl:text-base space-x-12 xxl:space-x-20 py-4 xxl:py-6">
           {links.map((item, idx) => (
             <Link href="/" key={idx}>
               <a className="capitalize lg:hover:text-brand-primary p-1">
