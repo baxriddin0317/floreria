@@ -15,7 +15,7 @@ module.exports = {
           gray: {
             primary: "#9BABBF",
             light: "#F8F8F8",
-            medium: "",
+            medium: "#818181",
           },
           label: "#C8CED4",
         },
@@ -40,9 +40,9 @@ module.exports = {
       },
       spacing: {
         13: "52px",
+        15: "60px",
         18: "72px",
         30: "30px",
-        60: "60px",
       },
       borderRadius: {
         base: "10px",

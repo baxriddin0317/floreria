@@ -3,7 +3,7 @@ import Select from "../Forms/Select";
 const HeroSearchFilter = () => {
   return (
     <div className="relative max-w-base mx-auto px-6 -mt-5 z-10">
-      <form className="bg-brand-dark-primary text-brand-label grid lg:grid-cols-5 items-end gap-5 rounded-20 p-5">
+      <form className="bg-brand-dark-primary text-brand-label grid lg:grid-cols-5 items-end gap-5 rounded-20 p-5 pb-7">
         <p className="font-poppins text-xl text-white font-bold uppercase text-center xl:text-right xl:pr-5 xxl:pr-10">
           busca tu regalo
         </p>
@@ -34,7 +34,7 @@ const HeroSearchFilter = () => {
 
         <button
           type="button"
-          className="bg-brand-primary text-white font-medium rounded-base py-2"
+          className="h-10 bg-brand-primary text-white font-medium rounded-base py-2"
         >
           Encontrar Regalo
         </button>
