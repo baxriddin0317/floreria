@@ -1,14 +1,14 @@
 import AppNavigation from "./AppNavigation";
-import Footer from "./Footer";
+import AppFooter from "./AppFooter";
 
 function AppLayout({ children }) {
   return (
     <>
-      <AppNavigation />
+      {/* <AppNavigation />
 
-      <main>{children}</main>
+      <main>{children}</main> */}
 
-      {/* <Footer /> */}
+      <AppFooter />
     </>
   );
 }

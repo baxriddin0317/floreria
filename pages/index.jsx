@@ -1,6 +1,7 @@
+import AppLayout from "../components/Layouts/AppLayout";
 import Hero from "../components/Home/Hero";
 import HomeProductsSlider from "../components/Home/HomeProductsSlider";
-import AppLayout from "../components/Layouts/AppLayout";
+import WhyChooseUs from "../components/Home/WhyChooseUs";
 import Choose from "../components/sections/Choose";
 import Jumbotron from "../components/sections/Jumbotron";
 import Newsletter from "../components/sections/Newsletter";
@@ -11,6 +12,7 @@ export default function Home() {
     <AppLayout>
       <Hero />
       <HomeProductsSlider />
+      <WhyChooseUs />
       <div className="h-screen"></div>
       {/* 
       <Choose />
