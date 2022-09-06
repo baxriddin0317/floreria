@@ -28,3 +28,7 @@
 .nav-links {
   @apply before:top-0 after:bottom-0;
 }
+
+.product:hover img {
+  @apply scale-90;
+}

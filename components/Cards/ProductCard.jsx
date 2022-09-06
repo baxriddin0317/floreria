@@ -6,9 +6,10 @@ import { TbShoppingCartPlus } from "react-icons/tb";
 const ProductCard = ({ flowerName, img, text, delivery, price }) => {
   return (
     <>
-      <div className="relative bg-brand-gray-light rounded-20 overflow-hidden">
-        <div className="relative w-full h-60 lg:h-auto lg:aspect-square">
+      <div className="product relative bg-brand-gray-light rounded-20 overflow-hidden border border-transparent lg:hover:border-brand-primary">
+        <div className="relative w-full h-60 lg:h-auto rounded-t-20 overflow-hidden lg:aspect-square">
           <Image
+            className="transition-transform duration-300"
             layout="fill"
             objectFit="cover"
             src={`/assets/img/flower${img}.jpg`}

@@ -7,9 +7,9 @@ import WeAre from "../components/Home/WeAre";
 export default function Home() {
   return (
     <AppLayout>
-      {/* <Hero />
+      <Hero />
       <HomeProductsSlider />
-      <WhyChooseUs /> */}
+      <WhyChooseUs />
       <WeAre />
     </AppLayout>
   );

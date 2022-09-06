@@ -5,42 +5,26 @@ const WeAre = () => {
   const svgRef = useRef(null);
   const imageRef = useRef(null);
 
-  const count = (params) => {
-    console.clear();
-    // const interval = setInterval(() => {
-    //   setTx((currentCount) => --currentCount);
-    // }, 1000);
-
-    if (tx === -320) {
-      console.log("done");
-    }
-
-    console.log(tx);
-    // cleanup
-    return () => clearInterval(interval);
-  };
-
   useEffect(() => {
     const trWidth = imageRef.current.offsetWidth - svgRef.current.offsetWidth;
-    console.log(trWidth);
-    // setTx(trWidth);
 
     // const interval = setInterval(() => {
-    //   setTx((currentCount) =>
-    //     currentCount == 0
-    //       ? --currentCount
-    //       : currentCount == trWidth && ++currentCount
-    //   );
-    // }, 50);
+    //   //   if (tx >= 0) {
+    //   //     setTx(-trWidth);
+    //   //     setTx((currentCount) => --currentCount);
+    //   //   } else {
+    //   //     setTx(trWidth);
+    //   //     setTx((currentCount) => ++currentCount);
+    //   //   }
+    // }, 40);
 
-    // console.log(interval);
-    // // cleanup
+    // // // cleanup
     // return () => clearInterval(interval);
   }, [tx]);
 
   return (
     <div className="max-w-7xl mx-auto px-5 md:px-12 lg:px-10 lg:py-24">
-      <div className="text-center py-1">
+      <div className="text-center py-1 hidden">
         <h2 className="font-cormorant-upright text-brand-dark-primary font-bold text-5xl lg:text-6xl">
           Nosotras
         </h2>

@@ -70,7 +70,7 @@ function Header() {
             </div>
           </form>
 
-          <div className="hidden lg:flex items-center justify-between flex-1">
+          <div className="hidden lg:flex items-center justify-between lg:gap-4 flex-1">
             <Link href="tel:+56932937810">
               <a className="inline-flex items-center text-brand-primary gap-2 xxl:gap-3">
                 <FaPhoneAlt className="text-lg xxl:text-2xl" />
@@ -80,7 +80,7 @@ function Header() {
 
             <button
               type="button"
-              className="inline-flex items-center gap-2 xxl:gap-3 text-brand-primary border border-brand-primary rounded-base hover:bg-brand-primary hover:text-white transition-colors duration-200 py-2.5 px-5 xxl:py-3 xxl:px-8"
+              className="inline-flex items-center gap-2 xxl:gap-3 whitespace-nowrap text-brand-primary border border-brand-primary rounded-base hover:bg-brand-primary hover:text-white transition-colors duration-200 py-2.5 px-5 xxl:py-3 xxl:px-8"
             >
               <svg className="w-4 h-4 xxl:w-6 xxl:h-6">
                 <use href="./assets/icons/diamond.svg#diamond"></use>
