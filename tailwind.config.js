@@ -23,6 +23,12 @@ module.exports = {
       screens: {
         xxl: "1440px",
       },
+      boxShadow: {
+        "3xl": "0px 5px 20px rgba(155, 171, 191, 0.3)",
+      },
+      fontSize: {
+        "4.5xl": ["40px", "55px"],
+      },
       maxWidth: {
         base: "1448px",
       },
