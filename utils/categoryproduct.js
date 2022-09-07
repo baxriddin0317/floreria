@@ -5,7 +5,7 @@ const product = [
       flowerName: "Bouquet",
       text: "Compra hoy, entrega cuando quieras",
       delivery: "!Entrega el Mismo Día!",
-      price: 19.99,
+      price: 29.99,
     },
     {
       id: 2,
@@ -13,7 +13,7 @@ const product = [
       flowerName: "Name of Product",
       text: "Compra hoy, entrega cuando quieras",
       delivery: "!Entrega el Mismo Día!",
-      price: 19.99,
+      price: 29.99,
     },
     {
       id: 3,
@@ -21,7 +21,7 @@ const product = [
       flowerName: "Name of Product",
       text: "Compra hoy, entrega cuando quieras",
       delivery: "!Entrega el Mismo Día!",
-      price: 19.99,
+      price: 29.99,
     },
     {
       id: 4,
@@ -29,7 +29,7 @@ const product = [
       flowerName: "Bouquet",
       text: "Compra hoy, entrega cuando quieras",
       delivery: "!Entrega el Mismo Día!",
-      price: 19.99,
+      price: 29.99,
     },
     {
       id: 5,
@@ -37,15 +37,15 @@ const product = [
       flowerName: "Name of Product",
       text: "Compra hoy, entrega cuando quieras",
       delivery: "!Entrega el Mismo Día!",
-      price: 19.99,
+      price: 29.99,
     },
     {
       id: 6,
       img: 3,
-      title: "Name of Product",
+      flowerName: "Name of Product",
       text: "Compra hoy, entrega cuando quieras",
       delivery: "!Entrega el Mismo Día!",
-      price: 19.99,
+      price: 29.99,
     },
     {
         id: 7,
@@ -53,7 +53,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 29.99,
       },
       {
         id: 8,
@@ -61,7 +61,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 29.99,
       },
       {
         id: 9,
@@ -69,7 +69,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 29.99,
       },
       {
         id: 10,
@@ -77,7 +77,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 10.99,
       },
       {
         id: 11,
@@ -85,15 +85,15 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 10.99,
       },
       {
         id: 12,
         img: 3,
-        title: "Name of Product",
+        flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 10.99,
       },
       {
         id: 13,
@@ -101,7 +101,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 10.99,
       },
       {
         id: 14,
@@ -109,7 +109,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 10.99,
       },
       {
         id: 15,
@@ -117,7 +117,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 10.99,
       },
       {
         id: 16,
@@ -125,7 +125,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 10.99,
       },
       {
         id: 17,
@@ -133,15 +133,15 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 10.99,
       },
       {
         id: 18,
         img: 3,
-        title: "Name of Product",
+        flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 10.99,
       },
       {
         id: 19,
@@ -149,7 +149,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 10.99,
       },
       {
         id: 20,
@@ -157,7 +157,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 49.99,
       },
       {
         id: 21,
@@ -165,7 +165,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 49.99,
       },
       {
         id: 22,
@@ -173,7 +173,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 49.99,
       },
       {
         id: 23,
@@ -181,15 +181,15 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 49.99,
       },
       {
         id: 24,
         img: 3,
-        title: "Name of Product",
+        flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 49.99,
       },
       {
         id: 25,
@@ -197,7 +197,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 49.99,
       },
       {
         id: 26,
@@ -205,7 +205,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 49.99,
       },
       {
         id: 27,
@@ -213,7 +213,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 49.99,
       },
       {
         id: 28,
@@ -221,7 +221,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 49.99,
       },
       {
         id: 29,
@@ -229,15 +229,15 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 49.99,
       },
       {
         id: 30,
         img: 3,
-        title: "Name of Product",
+        flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 59.99,
       },
       {
         id: 31,
@@ -245,7 +245,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 59.99,
       },
       {
         id: 32,
@@ -253,7 +253,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 59.99,
       },
       {
         id: 33,
@@ -261,7 +261,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 59.99,
       },
       {
         id: 34,
@@ -269,7 +269,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 59.99,
       },
       {
         id: 35,
@@ -277,15 +277,15 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 59.99,
       },
       {
         id: 36,
         img: 3,
-        title: "Name of Product",
+        flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 59.99,
       },
       {
         id: 37,
@@ -293,7 +293,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 59.99,
       },
       {
         id: 38,
@@ -301,7 +301,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 59.99,
       },
       {
         id: 39,
@@ -309,7 +309,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 59.99,
       },
       {
         id: 40,
@@ -317,7 +317,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 9.99,
       },
       {
         id: 41,
@@ -325,15 +325,15 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 9.99,
       },
       {
         id: 42,
         img: 3,
-        title: "Name of Product",
+        flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 9.99,
       },
       {
         id: 43,
@@ -341,7 +341,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 9.99,
       },
       {
         id: 44,
@@ -349,7 +349,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 9.99,
       },
       {
         id: 45,
@@ -357,7 +357,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 9.99,
       },
       {
         id: 46,
@@ -365,7 +365,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 9.99,
       },
       {
         id: 47,
@@ -373,15 +373,15 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 9.99,
       },
       {
         id: 48,
         img: 3,
-        title: "Name of Product",
+        flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 9.99,
       },
       {
         id: 49,
@@ -389,7 +389,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 9.99,
       },
       {
         id: 50,
@@ -397,7 +397,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 79.99,
       },
       {
         id: 51,
@@ -405,7 +405,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 79.99,
       },
       {
         id: 52,
@@ -413,7 +413,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 79.99,
       },
       {
         id: 53,
@@ -421,15 +421,15 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 79.99,
       },
       {
         id: 54,
         img: 3,
-        title: "Name of Product",
+        flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 79.99,
       },
       {
         id: 55,
@@ -437,7 +437,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 79.99,
       },
       {
         id: 56,
@@ -445,7 +445,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 79.99,
       },
       {
         id: 57,
@@ -453,7 +453,7 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 79.99,
       },
       {
         id: 58,
@@ -461,7 +461,7 @@ const product = [
         flowerName: "Bouquet",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 79.99,
       },
       {
         id: 59,
@@ -469,15 +469,15 @@ const product = [
         flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 79.99,
       },
       {
         id: 60,
         img: 3,
-        title: "Name of Product",
+        flowerName: "Name of Product",
         text: "Compra hoy, entrega cuando quieras",
         delivery: "!Entrega el Mismo Día!",
-        price: 19.99,
+        price: 79.99,
       },
   ];
   

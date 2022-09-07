@@ -3,8 +3,9 @@ import Box from '@mui/material/Box';
 import Slider from '@mui/material/Slider';
 import { useState } from "react";
 import { Disclosure } from '@headlessui/react'
-// import { ChevronUpIcon } from '@heroicons/react/20/solid'
 import { AiOutlinePlus, AiOutlineMinus } from "react-icons/ai"
+
+const tipo = ["Flores", "Plantas", "Postres", "Globos", "Peluches", "Joyeria", "Belleza", "Juguestes", "Botanas"];
 
 const FilterCard = () => {
   const [value, setValue] = useState([20, 37]);
@@ -14,7 +15,7 @@ const FilterCard = () => {
   };
 
   return (
-    <div className='rounded-20  bg-white p-5 shadow-3xl min-w-[330px]'>
+    <div className='rounded-20 hidden lg:block bg-white p-5 shadow-3xl min-w-[330px]'>
       <form >
         <h2 className='capitalize mb-2.5 font-bold text-2xl text-brand-dark-primary'>
           filtros
@@ -72,14 +73,21 @@ const SearchAccardion = () => {
       <div className="mx-auto w-full max-w-md rounded-2xl bg-white">
         <Disclosure>
           {({ open }) => (
-            <div className={open ? 'bg-linear py-px mt-5' : 'mt-5  py-px'}>
-              <div className="bg-white">
+            <div className={open ? 'bg-linear pt-px mt-5' : 'mt-5  py-px'}>
+              <div className="bg-white py-5">
                 <Disclosure.Button className="flex w-full justify-between rounded-lg text-left text-brand-dark-primary font-bold">
                   <span>What is your refund policy?</span>
                   {open ? <AiOutlineMinus className="text-brand-primary text-2xl" /> : <AiOutlinePlus className="text-brand-primary text-2xl" /> }
                 </Disclosure.Button>
-                <Disclosure.Panel className="pt-4 pb-2 text-sm text-gray-500">
-                  If you're
+                <Disclosure.Panel className="pt-4 pb-2 text-sm text-brand-dark-primary">
+                  {tipo.map((tip, i) => (
+                    <div className="flex gap-4 items-center mb-5" key={i}>
+                      <input className="w-6 h-6 mr-5 rounded-md" type="checkbox" />
+                      <p className="">
+                        {tip}
+                      </p>
+                    </div>
+                  ))}
                 </Disclosure.Panel>
               </div>
             </div>
@@ -87,7 +95,7 @@ const SearchAccardion = () => {
         </Disclosure>
         <Disclosure>
           {({ open }) => (
-            <div className={open ? 'bg-linear py-px mt-5' : 'mt-5  py-px'}>
+            <div className={open ? 'bg-linear pb-px mt-5' : 'mt-5  py-px'}>
               <div className="bg-white">
                 <Disclosure.Button className="flex w-full justify-between rounded-lg text-left text-brand-dark-primary font-bold">
                   <span>What is your refund policy?</span>
