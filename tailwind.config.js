@@ -11,6 +11,7 @@ module.exports = {
           primary: "#D96581",
           dark: {
             primary: "#444444",
+            ligth: "rgba(0, 0, 0, 0.2)",
           },
           gray: {
             primary: "#9BABBF",
@@ -45,8 +46,7 @@ module.exports = {
         10: "10px",
       },
       backgroundImage: {
-        linear:
-          "linear-gradient(90deg, rgba(155, 171, 191, 0) 1.04%, #9BABBF 51.56%, rgba(155, 171, 191, 0) 100%)",
+        linear: "linear-gradient(90deg, rgba(155, 171, 191, 0) 1.04%, #9BABBF 51.56%, rgba(155, 171, 191, 0) 100%)",
       },
       fontFamily: {
         nunito: ["Nunito", "sans-serif"],
