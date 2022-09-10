@@ -58,10 +58,10 @@ const HomeProductsSlider = () => {
         </div>
         <div className="w-full flex items-center justify-between absolute top-1/2 left-0 z-30">
           <button className="prev absolute z-50 top-1/2 -translate-y-1/2">
-            <IoIosArrowBack className="text-text-pink text-5xl" />
+            <IoIosArrowBack className="text-brand-primary text-5xl" />
           </button>
           <button className="next absolute z-50 top-1/2 -translate-y-1/2 right-0">
-            <IoIosArrowForward className="text-text-pink text-5xl " />
+            <IoIosArrowForward className="text-brand-primary text-5xl " />
           </button>
         </div>
       </div>

@@ -51,6 +51,10 @@ const FilterCard = () => {
                 className="text-brand-primary"
               />
             </Box>
+            <div className="flex items-center justify-between">
+              <p className="font-bold text-xs text-brand-gray-primary">$1.000</p>
+              <p className="font-bold text-xs text-brand-gray-primary">$10.000</p>
+            </div>
           </div>
 
           {/* search acardion */}
