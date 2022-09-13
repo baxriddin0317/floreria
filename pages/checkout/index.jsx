@@ -2,11 +2,11 @@ import React from 'react'
 import Border from "../../components/Product/Border"
 import CheckForm from '../../components/Forms/CheckForm'
 import AppNavigation from "../../components/Layouts/AppNavigation"
-import Delivery from '../../components/ThankYou/Delivery'
+import Delivery from '../../components/Checkout/Delivery'
 import CheckCard from '../../components/Cards/CheckCard'
-import CheckTab from '../../components/ThankYou/CheckTab'
-import Message from '../../components/ThankYou/Message'
-import Payment from '../../components/ThankYou/Payment'
+import CheckTab from '../../components/Checkout/CheckTab'
+import Message from '../../components/Checkout/Message'
+import Payment from '../../components/Checkout/Payment'
 
 const index = () => {
   return (
