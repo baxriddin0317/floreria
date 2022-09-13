@@ -47,7 +47,7 @@ const OrderSlider = () => {
                 slidesPerView={3}
                 spaceBetween={20}
                 navigation={{
-                    nextEl: ".orederNext",
+                    nextEl: ".orderNext",
                 }}
                 loop={true}
                 autoplay={true}

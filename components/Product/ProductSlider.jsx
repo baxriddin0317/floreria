@@ -17,60 +17,16 @@ const ProductSlider = () => {
 
   return (
     <div className="flex flex-col-reverse xl:flex-row gap-5 items-start max-w-base mx-auto">
-        <div className="xl:h-[480px] flex xl:flex-col gap-2.5 items-center justify-between max-w-lg mx-auto">
+        <div className="xl:h-120 flex xl:flex-col gap-2.5 items-center justify-between max-w-lg mx-auto">
             <button className="prev w-20 h-14 z-50 flex justify-center items-center bg-[#f8f8f8] rounded-10">
                 <BsArrowUpShort className="text-brand-primary text-3xl -rotate-90 xl:rotate-0" />
             </button>
-            <Swiper
-                onSwiper={setThumbsSwiper}
-                slidesPerView={4}
-                direction={"horizontal"}
-                breakpoints={{
-                    1280: {
-                        direction: "vertical",
-                    }
-                }}
-                loop={true}
-                navigation={{
-                    prevEl: ".prev",
-                    nextEl: ".next",
-                }}
-                watchSlidesProgress={true}
-                freeMode={true}
-                modules={[FreeMode, Navigation, Thumbs]}
-                className="w-full xl:w-20 xl:h-96"
-            >
-                <SwiperSlide>
-                    <div className="w-20 h-20 rounded-10 overflow-hidden">
-                        <Image src={`/assets/img/slider1.jpg`} width={80} height={80} />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="w-20 h-20 rounded-10 overflow-hidden">
-                        <Image src={`/assets/img/slider2.jpg`} width={80} height={80} />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="w-20 h-20 rounded-10 overflow-hidden">
-                        <Image src={`/assets/img/slider3.jpg`} width={80} height={80} />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="w-20 h-20 rounded-10 overflow-hidden">
-                        <Image src={`/assets/img/slider4.jpg`} width={80} height={80} />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="w-20 h-20 rounded-10 overflow-hidden">
-                        <Image src={`/assets/img/slider1.jpg`} width={80} height={80} />
-                    </div>
-                </SwiperSlide>
-            </Swiper>
+         <ProductThumbs setThumbsSwiper={setThumbsSwiper} />
             <button className="next w-20 h-14 z-50 bottom-0 flex justify-center items-center bg-[#f8f8f8] rounded-10 ">
                 <BsArrowDownShort className="text-brand-primary text-3xl -rotate-90 xl:rotate-0" />
             </button>
         </div>
-        <div className="w-full max-w-md mx-auto xl:w-[480px] xl:h-[480px]">
+        <div className="w-full md:max-w-md mx-auto xl:w-[480px] xl:h-[480px]">
             <Swiper
                 spaceBetween={0}
                 effect={"fade"}
@@ -133,5 +89,58 @@ const ProductSlider = () => {
     </div>
   )
 }
+
+const ProductThumbs = ({setThumbsSwiper}) =>  (
+    <>
+       <Swiper
+                onSwiper={setThumbsSwiper}
+                slidesPerView={3}
+                direction={"horizontal"}
+                breakpoints={{
+                    551: {
+                        slidesPerView: 3
+                    },
+                    1280: {
+                        direction: "vertical",
+                    }
+                }}
+                loop={true}
+                // navigation={{
+                //     prevEl: ".prev",
+                //     nextEl: ".next",
+                // }}
+                watchSlidesProgress={true}
+                freeMode={true}
+                modules={[FreeMode, Navigation, Thumbs]}
+                className="w-full xl:w-20 xl:h-96"
+            >
+                <SwiperSlide>
+                    <div className="w-20 h-20 rounded-10 overflow-hidden">
+                        <Image src={`/assets/img/slider1.jpg`} width={80} height={80} />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="w-20 h-20 rounded-10 overflow-hidden">
+                        <Image src={`/assets/img/slider2.jpg`} width={80} height={80} />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="w-20 h-20 rounded-10 overflow-hidden">
+                        <Image src={`/assets/img/slider3.jpg`} width={80} height={80} />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="w-20 h-20 rounded-10 overflow-hidden">
+                        <Image src={`/assets/img/slider4.jpg`} width={80} height={80} />
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="w-20 h-20 rounded-10 overflow-hidden">
+                        <Image src={`/assets/img/slider1.jpg`} width={80} height={80} />
+                    </div>
+                </SwiperSlide>
+            </Swiper>
+    </>
+)
 
 export default ProductSlider

@@ -50,7 +50,7 @@ const ProductContent = () => {
         </Border>
 
         <Border>
-            {/* <OrderSlider />     */}
+            <OrderSlider />    
         </Border>
 
         <Border>
