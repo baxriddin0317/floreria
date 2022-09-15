@@ -5,7 +5,7 @@ import Referrals from '../../components/Account/Referrals'
 import AccountLayout from '../../components/Layouts/AccountLayout'
 
 const dynamik = () => {
-    const router = useRouter()
+    const router = useRouter();
     const { dynamik } = router.query
 
   return (

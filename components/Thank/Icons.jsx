@@ -35,7 +35,7 @@ const Icons = () => {
     <div className='py-20 mb-15 max-w-2xl mx-auto'>
             <div className='grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-20'>
                 {icons.map(icon => (
-                    <Link href={"/"}>
+                    <Link key={icon.id} href={"/"}>
                         <a className='flex items-center flex-col'>
                             <div className='flex items-center justify-center w-13 h-13 rounded-10 bg-brand-primary text-3xl text-white mb-2.5'>
                                 {icon.icon}

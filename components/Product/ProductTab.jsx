@@ -70,7 +70,7 @@ const ProductTab = () => {
                                 {post.title}
                                 </h1>
                                 <p className='text-xl text-brand-gray-primary mb-6'>
-                                Demuestra tu agradecimiento y cariño con nuestra exclusiva canasta Vinum la cual contiene la combinación perfecta de vino y botanas que hará de este, el regalo perfecto junto con un globo con la frase "Love you".
+                                Demuestra tu agradecimiento y cariño con nuestra exclusiva canasta Vinum la cual contiene la combinación perfecta de vino y botanas que hará de este, el regalo perfecto junto con un globo con la frase &quot;Love you&quot;.
                                 </p>
                                 <p className='text-xl text-brand-gray-primary'>
                                 Nuestra caja titulada Vinum, palabra de origen latin que significa Vino, conecta el origen de esta bebida que tiene presencia desde antiguas civilizaciones, y se posiciona hasta el día de hoy como la bebida por excelencia para celebraciones.
