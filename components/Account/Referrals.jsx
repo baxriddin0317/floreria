@@ -1,27 +1,29 @@
 import React from 'react'
 import Border from '../Product/Border'
-import Icons from './Icons'
+import Icons from "../Thank/Icons"
 
-const Contact = () => {
+const Referrals = () => {
   return (
-    <div className='text-center mt-10'>
+    <div className='xl:pl-40'>
         <Border>
-            <p className='text-lg text-brand-gray-primary mb-5'>
-            Si conoces a alguien que también podría enviarle flores o un regalo a esta persona, o si le gustan las flores en general, ¡házselo saber!
-            </p>
-            <p className='text-lg text-brand-gray-primary mb-15'>
-            Recomienda y obtén un 10% de reembolso. Recibes recompensas cuando tus amigos hacen una compra. 
-            </p>
+            <div className='pb-24'>
+                <h1 className='font-bold text-brand-dark-primary text-3xl mb-6'>
+                Refiere a alguien
+                </h1>
+                <p className='text-brand-gray-primary text-xl mb-5'>
+                Si conoces a alguien que también podría enviarle flores o un regalo a esta persona, o si le gustan las flores en general, ¡házselo saber! 
+                </p>
+                <p className='text-brand-gray-primary text-xl'>
+                Recomienda y obtenga un 10% de reembolso. Recibes recompensas cuando tus amigos hacen una compra. 
+                </p>
+            </div>
         </Border>
+
         <Border>
-            <form className='flex flex-col lg:flex-row items-start gap-5 max-w-5xl mx-auto pb-2'>
-                <div className='grid grid-cols-1 w-full lg:grid-cols-3 gap-11'>
-                    <input className='w-full bg-brand-gray-light text-brand-gray-primary px-5 py-3.5 rounded-10' type="text" placeholder='Name' />
-                    <input className='w-full bg-brand-gray-light text-brand-gray-primary px-5 py-3.5 rounded-10' type="email" placeholder='Email' />
-                    <input className='w-full bg-brand-gray-light text-brand-gray-primary px-5 py-3.5 rounded-10'  type="tel" placeholder='Tel' />
-                </div>
-                <div className='w-full'>
-                    <button className="inline-flex items-center justify-center gap-2.5 bg-brand-primary text-white rounded-10 group px-7 py-3 lg:px-12 lg:py-4">
+            <form className='py-2.5'>
+                <div className='flex flex-col sm:flex-row items-center sm:tems-start gap-10'>
+                    <input className='w-full bg-brand-gray-light text-brand-gray-primary px-5 py-3.5 rounded-10' type="email" placeholder='Ej. luisa@gmail.com, marcos@gmail.com, francisca@hotmail.com' />
+                    <button className="inline-flex items-center justify-center gap-2.5 bg-brand-primary text-white rounded-10 group px-7 py-3.5 lg:px-12 ">
                         <strong className="text-sm">Recomendar</strong>
                         <svg
                             className="w-4 h-3 lg:w-5 lg:h-4 lg:group-hover:translate-x-2 transition-transform duration-200"
@@ -38,10 +40,10 @@ const Contact = () => {
                 </div>
             </form>
         </Border>
-
+        
         <Icons />
     </div>
   )
 }
 
-export default Contact
+export default Referrals

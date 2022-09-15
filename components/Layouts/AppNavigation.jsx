@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from 'next/router'
 import React, { useState } from "react";
 import { AiOutlineSearch, AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
@@ -36,6 +37,7 @@ const links = [
 ];
 function Header() {
   const [open, setOpen] = useState(false);
+  const router = useRouter()
 
   return (
     <>
@@ -65,7 +67,7 @@ function Header() {
                 type="button"
                 className="absolute top-1/2 -translate-y-1/2 right-4"
               >
-                <RiSearchLine className="text-text-pink md:text-xl lg:text-2xl" />
+                <RiSearchLine className="text-brand-primary md:text-xl lg:text-2xl" />
               </button>
             </div>
           </form>
@@ -112,7 +114,7 @@ function Header() {
                 </button>
               </div>
               <div>
-                <button type="button" className="text-brand-primary">
+                <button onClick={() => router.push('/account')} type="button" className="text-brand-primary">
                   <span className="relative block h-5 xxl:h-7 mx-auto">
                     <Image layout="fill" src="/assets/icons/avatar.svg" />
                   </span>

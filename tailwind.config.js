@@ -27,6 +27,7 @@ module.exports = {
       boxShadow: {
         "3xl": "0px 5px 20px rgba(155, 171, 191, 0.3)",
         "2.5xl": "0px 3px 12px rgba(155, 171, 191, 0.3)",
+        "4": "0px 4px 16px rgba(155, 171, 191, 0.3)",
       },
       fontSize: {
         "4.5xl": ["40px", "55px"],
@@ -63,6 +64,7 @@ module.exports = {
         nunito: ["Nunito", "sans-serif"],
         "cormorant-upright": ["Cormorant Upright", "serif"],
         poppins: ["Poppins", "sans-serif"],
+        roboto: ["Roboto", "sans-serif"],
         "bonheur-royalw": ["Bonheur Royale", "sans-serif"],
       },
       zIndex: {
