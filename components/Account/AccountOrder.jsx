@@ -21,8 +21,9 @@ const carddate = [
 const AccountOrder = () => {
   return (
     <div className='grid xl:grid-cols-2 gap-10'>
-      <OrderCard />
-      <OrderCard />
+      {[...Array(2).keys()].map((item, idx) => (
+        <OrderCard key={idx} />
+      ))}
     </div>
   )
 }

@@ -39,51 +39,17 @@ const ProductSlider = () => {
                 modules={[EffectFade, Navigation, Thumbs]}
                 className=""
             >
-                <SwiperSlide>
-                    <div>
-                        <Image
-                            layout="fill"
-                            objectFit="contain"
-                            src={`/assets/img/slider1.jpg`} 
-                        />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div >
-                        <Image
-                            width={480}
-                            height={480} 
-                            src={`/assets/img/slider2.jpg`} 
-                        />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div >
-                        <Image
-                            width={480}
-                            height={480} 
-                            src={`/assets/img/slider3.jpg`} 
-                        />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div >
-                        <Image
-                            width={480}
-                            height={480} 
-                            src={`/assets/img/slider4.jpg`} 
-                        />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div >
-                        <Image
-                            width={480}
-                            height={480} 
-                            src={`/assets/img/slider1.jpg`} 
-                        />
-                    </div>
-                </SwiperSlide>
+                {[...Array(3).keys()].map((item, idx) => (
+                    <SwiperSlide key={idx}>
+                        <div>
+                            <Image
+                                layout="fill"
+                                objectFit="contain"
+                                src={`/assets/img/slider${idx + 1}.jpg`} 
+                            />
+                        </div>
+                    </SwiperSlide>
+                ))}
             </Swiper>
         </div>
     </div>
@@ -114,31 +80,13 @@ const ProductThumbs = ({setThumbsSwiper}) =>  (
                 modules={[FreeMode, Navigation, Thumbs]}
                 className="w-full xl:w-20 xl:h-96"
             >
-                <SwiperSlide>
-                    <div className="w-20 h-20 rounded-10 overflow-hidden">
-                        <Image src={`/assets/img/slider1.jpg`} width={80} height={80} />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="w-20 h-20 rounded-10 overflow-hidden">
-                        <Image src={`/assets/img/slider2.jpg`} width={80} height={80} />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="w-20 h-20 rounded-10 overflow-hidden">
-                        <Image src={`/assets/img/slider3.jpg`} width={80} height={80} />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="w-20 h-20 rounded-10 overflow-hidden">
-                        <Image src={`/assets/img/slider4.jpg`} width={80} height={80} />
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className="w-20 h-20 rounded-10 overflow-hidden">
-                        <Image src={`/assets/img/slider1.jpg`} width={80} height={80} />
-                    </div>
-                </SwiperSlide>
+                {[...Array(3).keys()].map((item, idx) => (
+                    <SwiperSlide>
+                        <div className="w-20 h-20 rounded-10 overflow-hidden">
+                            <Image src={`/assets/img/slider${idx + 1}.jpg`} width={80} height={80} />
+                        </div>
+                    </SwiperSlide>
+                ))}
             </Swiper>
     </>
 )
