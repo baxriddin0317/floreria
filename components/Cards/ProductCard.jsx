@@ -1,9 +1,18 @@
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
 import { BsTruck } from "react-icons/bs";
 import { TbShoppingCartPlus } from "react-icons/tb";
+import CartModal from "../Modals/CartModal";
 
 const ProductCard = ({ flowerName, img, text, delivery, price }) => {
+  const [ modalItem, setModalItem ] = useState({});
+  const [ modalOpen, setModalOpen ] = useState(false);
+
+  const handleBtn = () => {
+    setModalItem({flowerName, img, text, delivery, price});
+    setModalOpen(!modalOpen);
+  }
   return (
     <>
       <div className="product relative bg-brand-gray-light rounded-20 overflow-hidden border border-transparent lg:hover:border-brand-primary">
@@ -37,12 +46,20 @@ const ProductCard = ({ flowerName, img, text, delivery, price }) => {
                 Agregar al carrito
               </span>
             </button>
-            <button className="h-11 w-11 shrink-0 grid place-content-center bg-white text-brand-primary lg:hover:bg-brand-primary lg:hover:text-white rounded-10 transition-colors duration-200">
+            <button 
+              onClick={handleBtn}
+              className="h-11 w-11 shrink-0 grid place-content-center bg-white text-brand-primary lg:hover:bg-brand-primary lg:hover:text-white rounded-10 transition-colors duration-200"
+            >
               <BsTruck className="text-2xl" />
             </button>
           </div>
         </div>
       </div>
+
+      
+      {/* <CartModal /> begin =====*/}
+      {modalOpen ? <CartModal modalItem={modalItem} setModalOpen={setModalOpen} /> : ""}
+      {/* <CartModal /> close =====*/}
     </>
   );
 };

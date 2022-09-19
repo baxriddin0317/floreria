@@ -19,7 +19,7 @@ const links = [
   },
   {
     name: "cumpleaños",
-    link: "/",
+    link: "/category",
   },
   {
     name: "aniversario",
@@ -151,7 +151,7 @@ function Header() {
 
         <div className="nav-links relative hidden lg:flex items-center justify-center text-sm xxl:text-base space-x-12 xxl:space-x-20 py-4 xxl:py-6">
           {links.map((item, idx) => (
-            <Link href="/" key={idx}>
+            <Link href={item.link} key={idx}>
               <a className="capitalize lg:hover:text-brand-primary p-1">
                 {item.name}
               </a>

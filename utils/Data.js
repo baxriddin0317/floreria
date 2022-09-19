@@ -36,7 +36,7 @@ const data = [
   },
   {
     img: 3,
-    title: "Name of Product",
+    flowerName: "Name of Product",
     text: "Compra hoy, entrega cuando quieras",
     delivery: "!Entrega el Mismo Día!",
     price: 19.99,
