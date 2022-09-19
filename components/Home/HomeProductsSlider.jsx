@@ -1,5 +1,5 @@
 import ProductCard from "../Cards/ProductCard";
-import Data from "../../utils/data"
+import Data from "../../utils/Data"
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 // Import Swiper React components

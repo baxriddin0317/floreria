@@ -1,4 +1,4 @@
-const data = [
+const Data = [
   {
     img: 1,
     flowerName: "Bouquet",
@@ -43,4 +43,4 @@ const data = [
   },
 ];
 
-export default data;
+export default Data;
