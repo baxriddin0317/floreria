@@ -40,7 +40,7 @@ const ProductSlider = () => {
 const ProductThumbs = ({thumbsSwiper}) =>  (
     <div className="flex flex-col gap-4">
         {[...Array(4).keys()].map((item, idx) => (
-            <div 
+            <div  key={idx}
                 className={`w-20 h-20 rounded-10 duration-150 overflow-hidden ${thumbsSwiper === idx ? 'border-4 border-brand-primary' : ''}`}
             >
                 <Image src={`/assets/img/slider${idx + 1}.jpg`} width={80} height={80} />

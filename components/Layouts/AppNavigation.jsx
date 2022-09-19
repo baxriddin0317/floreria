@@ -8,6 +8,7 @@ import { IoDiamondOutline } from "react-icons/io5";
 import { FaPhoneAlt, HiPhone } from "react-icons/fa";
 import { RiSearchLine } from "react-icons/ri";
 import { Transition } from "@headlessui/react";
+import CartModal from "../Modals/CartModal";
 
 const links = [
   {
@@ -170,6 +171,8 @@ function Header() {
         {/* Mobile */}
         <MobileNav {...{ open, setOpen }} />
       </header>
+
+      <CartModal />
     </>
   );
 }
