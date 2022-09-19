@@ -60,7 +60,7 @@ const ProductContent = () => {
             <p className='text-lg text-brand-gray-primary mb-5'>
             Podrás escribir un mensaje en una tarjeta más adelante en el Carrito
             </p>
-            <Link href="/">
+            <Link href="/checkout">
               <a className="inline-flex items-center justify-center rounded-10 mb-4 w-full py-5 gap-2.5 bg-brand-primary text-white group px-7">
                 <strong className="text-sm">Agregar ( $1,150.00 CLP)</strong>
                 <svg

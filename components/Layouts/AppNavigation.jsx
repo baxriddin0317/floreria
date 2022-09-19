@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from 'next/router'
+import { useRouter } from "next/router";
 import React, { useState } from "react";
 import { AiOutlineSearch, AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
@@ -12,32 +12,32 @@ import { Transition } from "@headlessui/react";
 const links = [
   {
     name: "novedades",
-    link: "/",
+    link: "/products",
   },
   {
     name: "mas vendidos",
-    link: "/",
+    link: "/products",
   },
   {
     name: "cumpleaños",
-    link: "/category",
+    link: "/products",
   },
   {
     name: "aniversario",
-    link: "/",
+    link: "/products",
   },
   {
     name: "Ofertas",
-    link: "/",
+    link: "/products",
   },
   {
     name: "porque sí",
-    link: "/",
+    link: "/thank-you",
   },
 ];
 function Header() {
   const [open, setOpen] = useState(false);
-  const router = useRouter()
+  const router = useRouter();
 
   return (
     <>
@@ -52,7 +52,7 @@ function Header() {
         <nav className="max-w-base mx-auto flex items-center py-2 px-3 md:px-6 xl:py-3.5 xxl:py-5">
           <Link href="/">
             <a className="relative w-16 h-14 md:w-16 md:h-16 shrink-0">
-              <Image src="/logo.png" layout="fill" />
+              <Image src="/logo.png" layout="fill" alt="Floreria Logo" />
             </a>
           </Link>
 
@@ -114,14 +114,20 @@ function Header() {
                 </button>
               </div>
               <div>
-                <button onClick={() => router.push('/account')} type="button" className="text-brand-primary">
-                  <span className="relative block h-5 xxl:h-7 mx-auto">
-                    <Image layout="fill" src="/assets/icons/avatar.svg" />
-                  </span>
-                  <strong className="text-sm xxl:text-base xxl:leading-5 mt-1">
-                    Paloma
-                  </strong>
-                </button>
+                <Link href="/account">
+                  <a className="block text-brand-primary">
+                    <span className="relative block h-5 xxl:h-7 mx-auto">
+                      <Image
+                        layout="fill"
+                        src="/assets/icons/avatar.svg"
+                        alt=""
+                      />
+                    </span>
+                    <strong className="text-sm xxl:text-base xxl:leading-5 mt-1">
+                      Paloma
+                    </strong>
+                  </a>
+                </Link>
               </div>
             </div>
           </div>

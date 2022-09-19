@@ -79,7 +79,7 @@ const CheckCard = () => {
                 </span>
             </div>
         </div>
-        <Link href="/">
+        <Link href="/thank-you">
             <a className="inline-flex items-center justify-center gap-2.5 bg-brand-primary text-white rounded-10 group px-7 py-3.5 lg:px-12 lg:py-5 mt-10">
             <strong className="text-sm">Finalizar compra - $270.00</strong>
             <svg
