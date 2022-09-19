@@ -1,10 +1,11 @@
 import { useRouter } from 'next/router'
+
 import AccountOrder from '../../components/Account/AccountOrder'
 import Addresses from '../../components/Account/Addresses'
 import Referrals from '../../components/Account/Referrals'
 import AccountLayout from '../../components/Layouts/AccountLayout'
 
-const dynamik = () => {
+const AccountPage = () => {
     const { dynamik } = useRouter().query
 
   return (
@@ -30,4 +31,4 @@ const renderSections = (dynamik) => {
   }
 }
 
-export default dynamik
+export default AccountPage
