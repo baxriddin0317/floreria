@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Newsletter from "../Sections/Newsletter";
+import Newsletter from "../sections/Newsletter";
 
 const footerLink = [
   {
