@@ -171,8 +171,6 @@ function Header() {
         {/* Mobile */}
         <MobileNav {...{ open, setOpen }} />
       </header>
-
-      <CartModal />
     </>
   );
 }
