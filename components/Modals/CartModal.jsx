@@ -19,8 +19,10 @@ const CartModal = ({modalItem, setModalOpen}) => {
                 </div>
                 <div className='flex items-center mb-5'>
                     <div className='rounded-10 overflow-hidden'>
-                        <img
-                            className="w-20 h-20"
+                        <Image
+                            className="transition-transform duration-300"
+                            width={80}
+                            height={80}
                             src={`/assets/img/flower${img}.jpg`}
                         />
                     </div>
@@ -57,8 +59,10 @@ const CartModal = ({modalItem, setModalOpen}) => {
 
                         <div className='flex items-center mb-5'>
                             <div className='rounded-10 overflow-hidden'>
-                                <img
-                                    className="w-20 h-20"
+                                <Image
+                                    className="transition-transform duration-300"
+                                    width={80}
+                                    height={80}
                                     src={`/assets/img/flower${img}.jpg`}
                                 />
                             </div>
@@ -84,8 +88,10 @@ const CartModal = ({modalItem, setModalOpen}) => {
                         </div>
                         <div className='flex items-center mb-5'>
                             <div className='rounded-10 overflow-hidden'>
-                                <img
-                                    className="w-20 h-20"
+                                <Image
+                                    className="transition-transform duration-300"
+                                    width={80}
+                                    height={80}
                                     src={`/assets/img/flower${img}.jpg`}
                                 />
                             </div>
@@ -110,9 +116,11 @@ const CartModal = ({modalItem, setModalOpen}) => {
                             </div>
                         </div>
                         <div className='flex items-center'>
-                            <div className='rounded-10 overflow-hidden'>
-                                <img
-                                    className="w-20 h-20"
+                            <div className='w-20 h-20 rounded-10 overflow-hidden'>
+                                <Image
+                                    className="transition-transform duration-300"
+                                    width={80}
+                                    height={80}
                                     src={`/assets/img/flower${img}.jpg`}
                                 />
                             </div>

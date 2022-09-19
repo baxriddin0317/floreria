@@ -32,3 +32,7 @@
 .product:hover img {
   @apply scale-90;
 }
+
+.check__form input{
+  @apply w-full bg-brand-gray-light text-brand-gray-primary px-5 py-3.5 mb-5 rounded-10;
+}
