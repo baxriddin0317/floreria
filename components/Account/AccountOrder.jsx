@@ -33,7 +33,7 @@ const OrderCard = () => {
         <div className='bg-white xxl:w-120 shadow-3xl p-8 rounded-20 w-full'>
             <div className='mb-5'>
                 {carddate.map(item => (
-                    <CardItem item={item} />
+                    <CardItem key={item.img} item={item} />
                 ))}
             </div>
             <div className='mb-5'>

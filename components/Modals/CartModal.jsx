@@ -3,7 +3,7 @@ import Link from "next/link";
 import { CgClose } from "react-icons/cg"
 
 const CartModal = ({modalItem, setModalOpen}) => {
-    console.log(modalItem);
+    
     const {flowerName, img, text, price} = modalItem
   return (
     <div className='fixed top-0 left-0 w-full h-full z-100 bg-brand-dark-ligth'>

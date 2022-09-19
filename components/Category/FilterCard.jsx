@@ -106,7 +106,7 @@ const SearchAccardion = () => {
                   {open ? <AiOutlineMinus className="text-brand-primary text-2xl" /> : <AiOutlinePlus className="text-brand-primary text-2xl" /> }
                 </Disclosure.Button>
                 <Disclosure.Panel className="pt-4 pb-2 text-sm text-gray-500">
-                  If you're
+                  If you&apos;re
                 </Disclosure.Panel>
               </div>
             </div>
