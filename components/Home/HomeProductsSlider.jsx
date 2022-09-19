@@ -1,5 +1,5 @@
 import ProductCard from "../Cards/ProductCard";
-import data from "../../utils/data.js"
+import Data from "../../utils/data"
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 // Import Swiper React components
@@ -49,7 +49,7 @@ const HomeProductsSlider = () => {
             }}
             modules={[Navigation]}
           >
-            {data.map((item, idx) => (
+            {Data.map((item, idx) => (
               <SwiperSlide key={idx}>
                 <ProductCard {...item} />
               </SwiperSlide>
