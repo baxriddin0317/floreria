@@ -30,6 +30,7 @@ module.exports = {
       },
       fontSize: {
         "4.5xl": ["40px", "55px"],
+        "8.5xl": ["110px", "128px"],
       },
       maxWidth: {
         base: "1448px",
@@ -62,6 +63,7 @@ module.exports = {
         nunito: ["Nunito", "sans-serif"],
         "cormorant-upright": ["Cormorant Upright", "serif"],
         poppins: ["Poppins", "sans-serif"],
+        "bonheur-royalw": ["Bonheur Royale", "sans-serif"],
       },
       zIndex: {
         100: "100",
