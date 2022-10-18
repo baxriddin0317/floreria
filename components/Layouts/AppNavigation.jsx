@@ -17,7 +17,7 @@ const links = [
   },
   {
     name: "mas vendidos",
-    link: "/products",
+    link: "/checkout",
   },
   {
     name: "cumpleaños",
