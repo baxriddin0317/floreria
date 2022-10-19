@@ -13,6 +13,10 @@ const ProductCard = ({ product }) => {
     addCartItem(product);
   }
 
+  if(product === undefined){
+    return <p className="font-bold text-3xl text-center">Product items not</p>
+  }
+
   return (
     <>
       <div className="product relative bg-brand-gray-light rounded-20 overflow-hidden border border-transparent lg:hover:border-brand-primary">
