@@ -128,8 +128,6 @@ const SelectDate = () => {
 }
 
 const DeliveryDate = ({value}) => {
-  console.log(value.toString());
- 
   return (
     <div className='p-10 pb-5 shadow-3xl rounded-20 bg-white text-center'>
       <p className='text-brand-gray-primary font-bold text-lg mb-5'>

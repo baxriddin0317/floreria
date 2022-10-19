@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { AiOutlineSearch, AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 import { IoDiamondOutline } from "react-icons/io5";
@@ -9,6 +9,8 @@ import { FaPhoneAlt, HiPhone } from "react-icons/fa";
 import { RiSearchLine } from "react-icons/ri";
 import { Transition } from "@headlessui/react";
 import CartModal from "../Modals/CartModal";
+
+import { CartContext } from "../../context/CartContext";
 
 const links = [
   {
@@ -38,7 +40,13 @@ const links = [
 ];
 function Header() {
   const [open, setOpen] = useState(false);
+  const {modalOpen, setModalOpen} = useContext(CartContext)
+  
   const router = useRouter();
+  
+  const handleModal = () => {
+    setModalOpen(!modalOpen);
+  }
 
   return (
     <>
@@ -105,7 +113,7 @@ function Header() {
                 </button>
               </div>
               <div>
-                <button type="button" className="text-brand-primary">
+                <button onClick={handleModal} type="button" className="text-brand-primary">
                   <span className="relative block h-5 xxl:h-7 mx-auto">
                     <Image layout="fill" src="/assets/icons/cart.svg" />
                   </span>
@@ -171,6 +179,9 @@ function Header() {
         {/* Mobile */}
         <MobileNav {...{ open, setOpen }} />
       </header>
+
+      {modalOpen && <CartModal setModalOpen={setModalOpen} />}
+
     </>
   );
 }
